@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CircularComponent } from './circular/circular.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CircularComponent
   ],
   imports: [
     BrowserModule,
