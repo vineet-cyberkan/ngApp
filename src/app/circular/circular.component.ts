@@ -12,7 +12,8 @@ export class CircularComponent implements OnInit {
   public myToDos = [
   	'wash coffie mug',
   	'take a shower',
-  	'say hi to new hire'
+  	'say hi to new hire',
+  	'wash your hands'
   ]
 
   constructor() { }
