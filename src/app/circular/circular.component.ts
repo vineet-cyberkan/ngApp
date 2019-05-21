@@ -9,6 +9,12 @@ export class CircularComponent implements OnInit {
   
   public lifeText = "life is a full time learning class";
 
+  public myToDos = [
+  	'wash coffie mug',
+  	'take a shower',
+  	'say hi to new hire'
+  ]
+
   constructor() { }
 
   ngOnInit() {
